@@ -34,6 +34,13 @@ body {
   height: 50px;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.056);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  filter: brightness(0.8);
 }
 
 .buttons button:nth-child(4n) {

@@ -1,19 +1,15 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import ApiNinja from '../hooks/api'
 
 export default function Quote() {
 
-  const { data } = ApiNinja()
-
-  useEffect(()=>{
-    console.log(data)
-  },[data])
+  const { data , loading } = ApiNinja()
   return (
     <div>
-        {data? 
+        {!loading? 
         <>
-            Quote: {data[0].quote} <br />
-            Author: {data[0].author} </>
+            Quote: {data ? data[0].quote : ''} <br />
+            Author: {data? data[0].author : ''} </>
         : "Loading Quote"}
     </div>
   )

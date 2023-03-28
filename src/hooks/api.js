@@ -21,11 +21,15 @@ export default function ApiNinja() {
     }
   };
 
+  const fetchQuote = () => {
+    fetchingAPI();
+  };
+
   useEffect(() => {
     fetchingAPI();
   }, []);
 
   return ({
-    data, loading,
+    data, loading, fetchQuote,
   });
 }

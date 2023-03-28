@@ -43,14 +43,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="">No server used</a></li>
+    <li><a href="">Quote API</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="">No Database used</a></li>
+    <li><a href="">Quote API</a></li>
   </ul>
 </details>
 
@@ -60,6 +60,8 @@
 
 - [ ] SPA Website
 - [ ] React app
+- [ ] Calculator
+- [ ] Quote from famous speakers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,9 +166,9 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[working calculator calculator]**
-- [ ] **[SPA Page]**
-- [ ] **[Working with API]**
+- [ ] **[Change Navigation]**
+- [ ] **[Add Mobile version]**
+- [ ] **[Work on styling]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

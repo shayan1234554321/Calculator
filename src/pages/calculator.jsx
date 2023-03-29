@@ -3,9 +3,9 @@ import CalculatorContainer from '../components/Calculator';
 
 export default function Calculator() {
   return (
-    <section className="calculator" >
+    <section className="calculator">
       <div className="calculatorCont">
-        <CalculatorContainer/>
+        <CalculatorContainer />
       </div>
       <div className="top">
         <div className="extraCon">
@@ -17,7 +17,7 @@ export default function Calculator() {
       </div>
       <div className="bottom">
         <div className="extraCon">
-          <h4>Let's Do Some Math!</h4>
+          <h4>Let&apos;s Do Some Math!</h4>
         </div>
       </div>
     </section>

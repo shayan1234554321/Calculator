@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render Correctly App renders correctly 1`] = `
+Array [
+  <nav>
+    <div
+      className="container"
+    >
+      <h1>
+        Math Magicians
+      </h1>
+      <ul>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            HOME
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            CALCULATOR
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quote"
+            onClick={[Function]}
+          >
+            QUOTE
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>,
+  <section
+    className="home"
+  >
+    <div
+      className="top"
+    >
+      <h2>
+        Welcome to our page
+      </h2>
+      <p>
+        Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+      </p>
+    </div>
+    <div
+      className="bottom"
+    >
+      <p>
+        In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+      </p>
+    </div>
+  </section>,
+]
+`;
+
+exports[`Components render Correctly Calculator renders correctly 1`] = `
+<section
+  className="calculator"
+>
+  <div
+    className="calculatorCont"
+  >
+    <div
+      className="calContainer"
+    >
+      <div
+        className="display"
+      >
+        <input
+          value="0"
+        />
+      </div>
+      <div
+        className="buttons"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+        <br />
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+         
+        <br />
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+         
+        <br />
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+         
+        <br />
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="top"
+  >
+    <div
+      className="extraCon"
+    >
+      <h3>
+        Everyday
+      </h3>
+      <h2>
+        CALCULATOR
+      </h2>
+    </div>
+  </div>
+  <div
+    className="bottom"
+  >
+    <div
+      className="extraCon"
+    >
+      <h4>
+        Let's Do Some Math!
+      </h4>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Components render Correctly Home renders correctly 1`] = `
+<section
+  className="home"
+>
+  <div
+    className="top"
+  >
+    <h2>
+      Welcome to our page
+    </h2>
+    <p>
+      Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+    </p>
+  </div>
+  <div
+    className="bottom"
+  >
+    <p>
+      In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Components render Correctly Quote renders correctly 1`] = `
+<section
+  className="quote"
+>
+  <div
+    className="top"
+  >
+    <p>
+      "
+      "-
+    </p>
+  </div>
+  <div
+    className="bottom"
+  >
+    <button
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Another Quote
+    </button>
+  </div>
+</section>
+`;
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav>
+    <div
+      className="container"
+    >
+      <h1>
+        Math Magicians
+      </h1>
+      <ul>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            HOME
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            CALCULATOR
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quote"
+            onClick={[Function]}
+          >
+            QUOTE
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>,
+  <section
+    className="home"
+  >
+    <div
+      className="top"
+    >
+      <h2>
+        Welcome to our page
+      </h2>
+      <p>
+        Welcome to our website, where you can find a simple calculator to make your calculations easy and quick. Our calculator has a user-friendly interface that is easy to use, even if you're not a math expert. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division, as well as more complex calculations like percentages, square roots, and exponents.
+      </p>
+    </div>
+    <div
+      className="bottom"
+    >
+      <p>
+        In addition to our calculator, we also have a collection of inspiring quotes to brighten up your day. These quotes cover a variety of topics such as motivation, success, happiness, and more. We update our quotes regularly, so you can always find fresh inspiration whenever you visit our website.
+      </p>
+    </div>
+  </section>,
+]
+`;
